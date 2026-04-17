@@ -1,0 +1,4 @@
+location            = "westeurope"
+resource_group_name = "fk-rg"
+public_ip_name      = "fk-pip-lb"
+loadbalancer_name   = "fk-public-lb"

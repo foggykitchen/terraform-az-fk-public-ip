@@ -1,5 +1,5 @@
 module "loadbalancer" {
-  source = "git::https://github.com/foggykitchen/terraform-az-fk-loadbalancer.git?ref=v1.1.0"
+  source = "git::https://github.com/mlinxfeld/terraform-az-fk-loadbalancer.git?ref=v1.1.0"
 
   name                = var.loadbalancer_name
   location            = azurerm_resource_group.fk_rg.location

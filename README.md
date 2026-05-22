@@ -74,7 +74,7 @@ terraform-az-fk-public-ip/
 
 ```hcl
 module "public_ip" {
-  source = "git::https://github.com/mlinxfeld/terraform-az-fk-public-ip.git?ref=v1.0.0"
+  source = "git::https://github.com/foggykitchen/terraform-az-fk-public-ip.git?ref=v1.0.0"
 
   name                = "fk-pip"
   location            = "westeurope"
@@ -141,10 +141,10 @@ This repository intentionally avoids burying Public IP behavior behind unrelated
 
 ## Related Modules & Training
 
-- [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)
-- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
-- [terraform-az-fk-bastion](https://github.com/mlinxfeld/terraform-az-fk-bastion)
-- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)
+- [terraform-az-fk-natgw](https://github.com/foggykitchen/terraform-az-fk-natgw)
+- [terraform-az-fk-loadbalancer](https://github.com/foggykitchen/terraform-az-fk-loadbalancer)
+- [terraform-az-fk-bastion](https://github.com/foggykitchen/terraform-az-fk-bastion)
+- [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)
 
 ---
 
